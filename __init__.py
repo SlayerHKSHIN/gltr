@@ -1,0 +1,21 @@
+from .gltr_switch import GLTRSwitchNodeImage
+from .chart_renderer import ChartRenderer
+from .tag_remover import TagRemover
+from .json_extractor import JSONExtractor
+from .json_key_filter import JSONKeyFilter
+
+NODE_CLASS_MAPPINGS = {
+    "GLTRSwitchNodeImage": GLTRSwitchNodeImage,
+    "ChartRenderer": ChartRenderer,
+    "TagRemover": TagRemover,
+    "JSONExtractor": JSONExtractor,
+    "JSONKeyFilter": JSONKeyFilter
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "GLTRSwitchNodeImage": "GLTR Switch Node (Image)",
+    "ChartRenderer": "Render Chart from JSON",
+    "TagRemover": "Tag Remover",
+    "JSONExtractor": "Leaves Nothing but JSON",
+    "JSONKeyFilter": "JSON Key Filter"
+}
