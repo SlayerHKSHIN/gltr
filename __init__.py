@@ -3,13 +3,15 @@ from .chart_renderer import ChartRenderer
 from .tag_remover import TagRemover
 from .json_extractor import JSONExtractor
 from .json_key_filter import JSONKeyFilter
+from .gltr_image_search import gltr_image_search
 
 NODE_CLASS_MAPPINGS = {
     "GLTRSwitchNodeImage": GLTRSwitchNodeImage,
     "ChartRenderer": ChartRenderer,
     "TagRemover": TagRemover,
     "JSONExtractor": JSONExtractor,
-    "JSONKeyFilter": JSONKeyFilter
+    "JSONKeyFilter": JSONKeyFilter,
+    "gltr_image_search": gltr_image_search
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -17,5 +19,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "ChartRenderer": "Render Chart from JSON",
     "TagRemover": "Tag Remover",
     "JSONExtractor": "Leaves Nothing but JSON",
-    "JSONKeyFilter": "JSON Key Filter"
+    "JSONKeyFilter": "JSON Key Filter",
+    "gltr_image_search": "gltr image search (Single)"
 }
