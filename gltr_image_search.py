@@ -3,9 +3,12 @@
 import requests
 import json
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageFile
 from io import BytesIO
+import gzip
 import torch
+
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 class gltr_image_search:
     @classmethod
@@ -31,28 +34,47 @@ class gltr_image_search:
             "cx": search_engine_id,
             "searchType": "image",
             "q": query,
-            "num": 1,
+            "num": 5,
             "imgSize": "large",
+            "imgType": "face",
             "safe": "off"
+            # ⛔ rights 필터 제거됨
         }
 
         response = requests.get(search_url, params=params)
         data = response.json()
 
-        print("[gltr_image_search] Response JSON:")
-        print(json.dumps(data, indent=2))
-
         if "items" not in data or len(data["items"]) == 0:
             raise Exception("No image found for query: " + query)
 
-        image_url = data["items"][0]["link"]
-        print("[gltr_image_search] Image URL:", image_url)
+        for item in data["items"]:
+            image_url = item.get("link")
+            mime_type = item.get("mime", "")
+            display_link = item.get("displayLink", "")
 
-        image_response = requests.get(image_url)
-        image_pil = Image.open(BytesIO(image_response.content)).convert("RGB")
+            if mime_type not in ["image/jpeg", "image/png"]:
+                continue
+            if "youtube.com" in image_url or "ytimg.com" in image_url or "youtube" in display_link:
+                continue
 
-        image_np = np.array(image_pil).astype(np.float32) / 255.0  # (H, W, C)
-        image_tensor = torch.from_numpy(image_np).unsqueeze(0)  # ✅ (1, H, W, C)
+            try:
+                image_response = requests.get(image_url, headers={"User-Agent": "Mozilla/5.0"})
+                if image_response.status_code != 200:
+                    continue
+                if "image" not in image_response.headers.get("Content-Type", ""):
+                    continue
 
-        return (image_tensor, query)
+                raw_bytes = image_response.content
+                if image_response.headers.get("Content-Encoding") == "gzip":
+                    raw_bytes = gzip.decompress(raw_bytes)
 
+                image_pil = Image.open(BytesIO(raw_bytes)).convert("RGB")
+                image_np = np.array(image_pil).astype(np.float32) / 255.0
+                image_tensor = torch.from_numpy(image_np).unsqueeze(0)
+
+                return (image_tensor, query)
+
+            except Exception:
+                continue
+
+        raise Exception("No valid image matching the constraints was found for query: " + query)
