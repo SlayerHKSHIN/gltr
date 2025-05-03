@@ -4,6 +4,7 @@ from .tag_remover import TagRemover
 from .json_extractor import JSONExtractor
 from .json_key_filter import JSONKeyFilter
 from .gltr_image_search import gltr_image_search
+from .save_json import SaveJSON
 
 NODE_CLASS_MAPPINGS = {
     "GLTRSwitchNodeImage": GLTRSwitchNodeImage,
@@ -11,7 +12,8 @@ NODE_CLASS_MAPPINGS = {
     "TagRemover": TagRemover,
     "JSONExtractor": JSONExtractor,
     "JSONKeyFilter": JSONKeyFilter,
-    "gltr_image_search": gltr_image_search
+    "gltr_image_search": gltr_image_search,
+    "SaveJSON": SaveJSON
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -20,5 +22,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "TagRemover": "Tag Remover",
     "JSONExtractor": "Leaves Nothing but JSON",
     "JSONKeyFilter": "JSON Key Filter",
-    "gltr_image_search": "gltr image search (Single)"
+    "gltr_image_search": "gltr image search (Single)",
+    "SaveJSON": "Save JSON"
 }
