@@ -16,7 +16,6 @@ class JSONExtractor:
     CATEGORY = "GLTR Utils"
 
     def escape_double_quotes(self, obj):
-        # 문자열 안의 " 를 \" 로 이스케이프 처리 (재귀)
         if isinstance(obj, dict):
             return {k: self.escape_double_quotes(v) for k, v in obj.items()}
         elif isinstance(obj, list):
@@ -30,7 +29,7 @@ class JSONExtractor:
         # JSON 블록 추출
         json_match = re.search(r'\{.*\}', text, re.DOTALL)
         if not json_match:
-            return ("",)
+            return (json.dumps({"error": "No JSON object found in text"}, ensure_ascii=False, indent=2),)
 
         json_str = json_match.group(0)
 
@@ -42,11 +41,9 @@ class JSONExtractor:
             try:
                 parsed = ast.literal_eval(json_str)
             except (ValueError, SyntaxError):
-                return ("",)
+                return (json.dumps({"error": "Failed to parse JSON using both json and ast"}, ensure_ascii=False, indent=2),)
 
-        # 문자열 내의 "를 \"로 이스케이프
         escaped = self.escape_double_quotes(parsed)
-
-        # 최종 JSON 출력
         result = json.dumps(escaped, ensure_ascii=False, indent=2)
         return (result,)
+
