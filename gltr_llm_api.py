@@ -1,50 +1,14 @@
 import requests
 import json
 
-class GLTR_LLM_API:
-    @classmethod
-    def INPUT_TYPES(cls):
-        return {
-            "required": {
-                "prompt": ("STRING", {"multiline": True}),
-                "max_tokens": ("INT", {"default": 100}),
-                "api_key": ("STRING", {"default": ""}),
-            }
-        }
-
-    RETURN_TYPES = ("STRING",)
-    FUNCTION = "call"
-
-    def call(self, prompt, max_tokens, api_key):
-        url = "http://intercomai6.gltr-ous.us/v1/chat/completions"
-        headers = {
-            "Content-Type": "application/json",
-            "X-API-Key": api_key
-        }
-
-        body = {
-            "messages": [
-                {"role": "user", "content": prompt}
-            ],
-            "max_tokens": max_tokens
-            }
-
-        try:
-            response = requests.post(url, headers=headers, json=body, timeout=30)
-            response.raise_for_status()
-            return (response.json()["choices"][0]["text"],)
-        except Exception as e:
-            return (f"Error: {e}",)
-
-
 class GLTRCallLLMAPI:
     @classmethod
     def INPUT_TYPES(cls):
         return {
             "required": {
                 "api_key": ("STRING", {"default": ""}),
-                "base_url": ("STRING", {"default": "http://intercomai6.gltr-ous.us", "tooltip": "Base URL without /v1/..."}),
-                "max_tokens": ("INT", {"default": 512, "min": 1, "max": 4096}),
+                "base_url": ("STRING", {"default": "http://llm.gltr.app", "tooltip": "Base URL without /v1/..."}),
+                "max_tokens": ("INT", {"default": 4096, "min": 1, "max": 35840}),
             }
         }
 
@@ -81,7 +45,7 @@ class GLTRCallLLMAPI:
 
                 try:
                     print("Payload being sent to the API:", json.dumps(payload, indent=4)) 
-                    response = requests.post(self.url, headers=headers, json=payload, timeout=30)
+                    response = requests.post(self.url, headers=headers, json=payload, timeout=120)
                     response.raise_for_status()
                     data = response.json()
                     reply = data["choices"][0]["message"]["content"]
