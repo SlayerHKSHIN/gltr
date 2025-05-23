@@ -1,0 +1,9 @@
+Pillow
+langdetect
+matplotlib
+numpy
+requests
+torch
+transliterate
+unidecode
+watchdog
