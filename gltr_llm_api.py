@@ -64,9 +64,9 @@ class GLTRCallLLMAPI:
                         "reasoning": ""
                     }
 
-            def send(self, user_prompt, temperature, max_length, history,
-                     tools, is_tools_in_sys_prompt, images,
-                     imgbb_api_key, img_URL, stream, **extra_parameters):
+        def send(self, user_prompt, temperature, max_length, history,
+                tools=None, is_tools_in_sys_prompt=False, images=None,
+                imgbb_api_key=None, img_URL=None, stream=False, **extra_parameters):
                 messages = history if isinstance(history, list) else []
                 if user_prompt:
                     messages.append({"role": "user", "content": user_prompt})
