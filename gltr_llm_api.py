@@ -79,7 +79,9 @@ class GLTRCallLLMAPI:
                     stream=stream,
                     **extra_parameters
                 )
-                return result["response"], result["history"], result["reasoning"]
+                # 전체 result는 유지하되, 외부로는 필요한 두 개만 반환
+                return result["response"], result["history"]
+
 
         return (Model(api_key, base_url, max_tokens),)
 
