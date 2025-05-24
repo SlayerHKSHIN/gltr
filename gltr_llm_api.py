@@ -64,21 +64,21 @@ class GLTRCallLLMAPI:
                         "reasoning": ""
                     }
 
-        def send(self, user_prompt, temperature, max_length, history,
-                tools=None, is_tools_in_sys_prompt=False, images=None,
-                imgbb_api_key=None, img_URL=None, stream=False, **extra_parameters):
-                messages = history if isinstance(history, list) else []
-                if user_prompt:
-                    messages.append({"role": "user", "content": user_prompt})
+            def send(self, user_prompt, temperature, max_length, history,
+                    tools=None, is_tools_in_sys_prompt=False, images=None,
+                    imgbb_api_key=None, img_URL=None, stream=False, **extra_parameters):
+                    messages = history if isinstance(history, list) else []
+                    if user_prompt:
+                        messages.append({"role": "user", "content": user_prompt})
 
-                result = self.create_chat_completion(
-                    messages=messages,
-                    temperature=temperature,
-                    max_tokens=max_length,
-                    stream=stream,
-                    **extra_parameters
-                )
-                return result["response"], result["history"], result["reasoning"]
+                    result = self.create_chat_completion(
+                        messages=messages,
+                        temperature=temperature,
+                        max_tokens=max_length,
+                        stream=stream,
+                        **extra_parameters
+                    )
+                    return result["response"], result["history"], result["reasoning"]
 
         return (Model(api_key, base_url, max_tokens),)
 
