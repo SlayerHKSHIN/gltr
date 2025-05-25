@@ -154,8 +154,8 @@ class UniversalNameMatcher:
                 "name": ("STRING", {}),
                 "start": ("STRING", {"default": "0"}),
                 "length": ("STRING", {"default": "0"}),
-                "name_list_path": ("STRING", {"default": "~/ComfyUI/custom_nodes/gltr/list_character_names.json"}),
-                "lora_file_list_path": ("STRING", {"default": "~/ComfyUI/custom_nodes/gltr/list_character_lora.json"}),
+                "name_list_path": ("STRING", {"default": "~/ComfyUI/models/loras/list_character_names.json"}),
+                "lora_file_list_path": ("STRING", {"default": "~/ComfyUI/models/loras/list_character_lora.json"}),
                 "threshold": ("FLOAT", {"default": 0.8})
             }
         }
@@ -199,7 +199,7 @@ class UniversalNameMatcher:
             print(f"[DEBUG] Loaded {len(name_list)} names from JSON")
         except Exception as e:
             print(f"[ERROR] Failed to read name list JSON: {e}")
-            return (json.dumps({"model": "", "start": "0", "length": "0"}),)
+            return (json.dumps({"lora_character": "", "start": "0", "length": "0"}),)
 
         normalized_input = self.normalize(name)
         print(f"[DEBUG] Normalized input: {normalized_input}")
@@ -217,7 +217,7 @@ class UniversalNameMatcher:
         print(f"[DEBUG] Best match: {best_match} (score={best_score:.3f})")
         if best_score < threshold:
             print(f"[WARNING] Best match score too low: {best_score:.3f} < {threshold}")
-            return (json.dumps({"model": "", "start": str(start), "length": str(length)}),)
+            return (json.dumps({"lora_character": "", "start": str(start), "length": str(length)}),)
 
         # LoRA 파일 리스트 읽기
         try:
@@ -225,7 +225,7 @@ class UniversalNameMatcher:
                 lora_files = json.load(f)
         except Exception as e:
             print(f"[ERROR] Failed to read lora file list JSON: {e}")
-            return (json.dumps({"model": "", "start": "0", "length": "0"}),)
+            return (json.dumps({"lora_character": "", "start": "0", "length": "0"}),)
 
         def normalize_all(name):
             return unidecode(name).replace(" ", "").replace("_", "").lower()
@@ -255,5 +255,5 @@ class UniversalNameMatcher:
         if not selected_file:
             print(f"[UniversalNameMatcher] No matching files found for name: {best_match}")
 
-        return (json.dumps({"model": selected_file, "start": str(start), "length": str(length)}),)
+        return (json.dumps({"lora_character": selected_file, "start": str(start), "length": str(length)}),)
 
