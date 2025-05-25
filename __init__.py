@@ -8,6 +8,7 @@ from .save_json import SaveJSON
 from .gltr_llm_api import GLTRCallLLMAPI 
 from .gltr_llm_general_link import GLTRLLMGeneralLink, UniversalNameMatcher 
 from .extract_name_position import ExtractNamePosition
+from .strength_finder import StrengthFinder
 
 NODE_CLASS_MAPPINGS = {
     "GLTRSwitchNodeImage": GLTRSwitchNodeImage,
@@ -20,6 +21,7 @@ NODE_CLASS_MAPPINGS = {
     "GLTRCallLLMAPI": GLTRCallLLMAPI,
     "GLTRLLMGeneralLink": GLTRLLMGeneralLink,
     "UniversalNameMatcher": UniversalNameMatcher,
+    "StrengthFinder": StrengthFinder,
     "ExtractNamePosition": ExtractNamePosition
 }
 
@@ -34,5 +36,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "GLTRCallLLMAPI": "GLTR Model Loader for LLM Party",
     "GLTRLLMGeneralLink": "GLTR LLM general link",
     "UniversalNameMatcher": "🌐 Universal Name → LoRA Matcher",
+    "StrengthFinder": "GLTR Strength Finder",
     "ExtractNamePosition": "🧭 Extract Name Position (Start & Length)"
 }

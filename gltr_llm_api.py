@@ -50,6 +50,7 @@ class GLTRCallLLMAPI:
                     data = response.json()
                     reply = data["choices"][0]["message"]["content"]
                     messages.append({"role": "assistant", "content": reply})
+                    # reasoning이 따로 없으니 빈 문자열로 맞춤
                     return {
                         "response": reply,
                         "history": messages,
@@ -64,7 +65,7 @@ class GLTRCallLLMAPI:
                         "reasoning": ""
                     }
 
-            # ✅ 이 메서드도 반드시 Model 클래스 안에 있어야 합니다
+            # 반드시 3개 반환
             def send(self, user_prompt, temperature, max_length, history,
                     tools=None, is_tools_in_sys_prompt=False, images=None,
                     imgbb_api_key=None, img_URL=None, stream=False, **extra_parameters):
@@ -79,9 +80,8 @@ class GLTRCallLLMAPI:
                     stream=stream,
                     **extra_parameters
                 )
-                # 전체 result는 유지하되, 외부로는 필요한 두 개만 반환
-                return result["response"], result["history"]
-
+                # 반환값을 3개로 맞춤
+                return result["response"], result["history"], result.get("reasoning", "")
 
         return (Model(api_key, base_url, max_tokens),)
 

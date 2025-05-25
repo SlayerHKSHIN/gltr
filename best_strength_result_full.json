@@ -1,0 +1,730 @@
+{
+  "Yoon_Seok_Yul|ad@m_3lliot": {
+    "trigger_style": "ad@m_3lliot",
+    "lora_style": "style_ad@m_3lliot.safetensors",
+    "strength_style": 1.4,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|impressionism": {
+    "trigger_style": "impressionism",
+    "lora_style": "style_impressionism.safetensors",
+    "strength_style": 0.9,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|Corporatecartoon": {
+    "trigger_style": "Corporatecartoon",
+    "lora_style": "style_corporatecartoon.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|DUDL, dudl": {
+    "trigger_style": "DUDL, dudl",
+    "lora_style": "style_dudl.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|disney": {
+    "trigger_style": "disney",
+    "lora_style": "",
+    "strength_style": 1.5,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|Flat Lined": {
+    "trigger_style": "Flat Lined",
+    "lora_style": "style_flat_lined.safetensors",
+    "strength_style": 0.85,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|cartoon": {
+    "trigger_style": "cartoon",
+    "lora_style": "style_american_modern_cartoon.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|lineart": {
+    "trigger_style": "lineart",
+    "lora_style": "flux_events_Caricature_crctfl_style.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|anime": {
+    "trigger_style": "anime",
+    "lora_style": "style_real_anime.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|wh1m5y_style flat illustration": {
+    "trigger_style": "wh1m5y_style flat illustration",
+    "lora_style": "style_wh1m5y_style_flat_illustration.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|Hasui Kawase Style": {
+    "trigger_style": "Hasui Kawase Style",
+    "lora_style": "style_Hasui_Kawase.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|Pencil drawing in 4B bold strokes": {
+    "trigger_style": "Pencil drawing in 4B bold strokes",
+    "lora_style": "style_Pencil_drawing_in_2B_4B_2H_HB.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Yoon_Seok_Yul|chatgptghibli": {
+    "trigger_style": "chatgptghibli",
+    "lora_style": "studiochatgpt-ghibli-v1.safetensors",
+    "strength_style": 1.35,
+    "trigger_character": "Yoon_Seok_Yul",
+    "lora_character": "Flux_Lora_Yoon_Seok_Yul_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|wh1m5y_style flat illustration": {
+    "trigger_style": "wh1m5y_style flat illustration",
+    "lora_style": "style_wh1m5y_style_flat_illustration.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|anime": {
+    "trigger_style": "anime",
+    "lora_style": "style_real_anime.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|DUDL, dudl": {
+    "trigger_style": "DUDL, dudl",
+    "lora_style": "style_dudl.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|impressionism": {
+    "trigger_style": "impressionism",
+    "lora_style": "style_impressionism.safetensors",
+    "strength_style": 1.05,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|ad@m_3lliot": {
+    "trigger_style": "ad@m_3lliot",
+    "lora_style": "style_ad@m_3lliot.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|lineart": {
+    "trigger_style": "lineart",
+    "lora_style": "flux_events_Caricature_crctfl_style.safetensors",
+    "strength_style": 1.45,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|Flat Lined": {
+    "trigger_style": "Flat Lined",
+    "lora_style": "style_flat_lined.safetensors",
+    "strength_style": 0.95,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|disney": {
+    "trigger_style": "disney",
+    "lora_style": "",
+    "strength_style": 1.3,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|cartoon": {
+    "trigger_style": "cartoon",
+    "lora_style": "style_american_modern_cartoon.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|chatgptghibli": {
+    "trigger_style": "chatgptghibli",
+    "lora_style": "studiochatgpt-ghibli-v1.safetensors",
+    "strength_style": 1.05,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|Pencil drawing in 4B bold strokes": {
+    "trigger_style": "Pencil drawing in 4B bold strokes",
+    "lora_style": "style_Pencil_drawing_in_2B_4B_2H_HB.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|Hasui Kawase Style": {
+    "trigger_style": "Hasui Kawase Style",
+    "lora_style": "style_Hasui_Kawase.safetensors",
+    "strength_style": 1.05,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Moon_Soo|Corporatecartoon": {
+    "trigger_style": "Corporatecartoon",
+    "lora_style": "style_corporatecartoon.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kim_Moon_Soo",
+    "lora_character": "Flux_Lora_Kim_Moon_Soo_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|disney": {
+    "trigger_style": "disney",
+    "lora_style": "",
+    "strength_style": 1.45,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|anime": {
+    "trigger_style": "anime",
+    "lora_style": "style_real_anime.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|Corporatecartoon": {
+    "trigger_style": "Corporatecartoon",
+    "lora_style": "style_corporatecartoon.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|lineart": {
+    "trigger_style": "lineart",
+    "lora_style": "flux_events_Caricature_crctfl_style.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|DUDL, dudl": {
+    "trigger_style": "DUDL, dudl",
+    "lora_style": "style_dudl.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|cartoon": {
+    "trigger_style": "cartoon",
+    "lora_style": "style_american_modern_cartoon.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|impressionism": {
+    "trigger_style": "impressionism",
+    "lora_style": "style_impressionism.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|Flat Lined": {
+    "trigger_style": "Flat Lined",
+    "lora_style": "style_flat_lined.safetensors",
+    "strength_style": 1.15,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|wh1m5y_style flat illustration": {
+    "trigger_style": "wh1m5y_style flat illustration",
+    "lora_style": "style_wh1m5y_style_flat_illustration.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|ad@m_3lliot": {
+    "trigger_style": "ad@m_3lliot",
+    "lora_style": "style_ad@m_3lliot.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|Hasui Kawase Style": {
+    "trigger_style": "Hasui Kawase Style",
+    "lora_style": "style_Hasui_Kawase.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|Pencil drawing in 4B bold strokes": {
+    "trigger_style": "Pencil drawing in 4B bold strokes",
+    "lora_style": "style_Pencil_drawing_in_2B_4B_2H_HB.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kim_Kun_Hee|chatgptghibli": {
+    "trigger_style": "chatgptghibli",
+    "lora_style": "studiochatgpt-ghibli-v1.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kim_Kun_Hee",
+    "lora_character": "Flux_Lora_Kim_Kun_Hee_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|Corporatecartoon": {
+    "trigger_style": "Corporatecartoon",
+    "lora_style": "style_corporatecartoon.safetensors",
+    "strength_style": 0.85,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|lineart": {
+    "trigger_style": "lineart",
+    "lora_style": "flux_events_Caricature_crctfl_style.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|chatgptghibli": {
+    "trigger_style": "chatgptghibli",
+    "lora_style": "studiochatgpt-ghibli-v1.safetensors",
+    "strength_style": 1.2,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|Pencil drawing in 4B bold strokes": {
+    "trigger_style": "Pencil drawing in 4B bold strokes",
+    "lora_style": "style_Pencil_drawing_in_2B_4B_2H_HB.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|cartoon": {
+    "trigger_style": "cartoon",
+    "lora_style": "style_american_modern_cartoon.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|anime": {
+    "trigger_style": "anime",
+    "lora_style": "style_real_anime.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|wh1m5y_style flat illustration": {
+    "trigger_style": "wh1m5y_style flat illustration",
+    "lora_style": "style_wh1m5y_style_flat_illustration.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|Hasui Kawase Style": {
+    "trigger_style": "Hasui Kawase Style",
+    "lora_style": "style_Hasui_Kawase.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|DUDL, dudl": {
+    "trigger_style": "DUDL, dudl",
+    "lora_style": "style_dudl.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|ad@m_3lliot": {
+    "trigger_style": "ad@m_3lliot",
+    "lora_style": "style_ad@m_3lliot.safetensors",
+    "strength_style": 0.9,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|impressionism": {
+    "trigger_style": "impressionism",
+    "lora_style": "style_impressionism.safetensors",
+    "strength_style": 1.0,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|disney": {
+    "trigger_style": "disney",
+    "lora_style": "",
+    "strength_style": 1.1,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jae_Myung|Flat Lined": {
+    "trigger_style": "Flat Lined",
+    "lora_style": "style_flat_lined.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Lee_Jae_Myung",
+    "lora_character": "Flux_Lora_Lee_Jae_Myung_rank16_bf16-step00500.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|cartoon": {
+    "trigger_style": "cartoon",
+    "lora_style": "style_american_modern_cartoon.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|Pencil drawing in 4B bold strokes": {
+    "trigger_style": "Pencil drawing in 4B bold strokes",
+    "lora_style": "style_Pencil_drawing_in_2B_4B_2H_HB.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|Hasui Kawase Style": {
+    "trigger_style": "Hasui Kawase Style",
+    "lora_style": "style_Hasui_Kawase.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|DUDL, dudl": {
+    "trigger_style": "DUDL, dudl",
+    "lora_style": "style_dudl.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|impressionism": {
+    "trigger_style": "impressionism",
+    "lora_style": "style_impressionism.safetensors",
+    "strength_style": 1.45,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|Flat Lined": {
+    "trigger_style": "Flat Lined",
+    "lora_style": "style_flat_lined.safetensors",
+    "strength_style": 1.15,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|Corporatecartoon": {
+    "trigger_style": "Corporatecartoon",
+    "lora_style": "style_corporatecartoon.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|wh1m5y_style flat illustration": {
+    "trigger_style": "wh1m5y_style flat illustration",
+    "lora_style": "style_wh1m5y_style_flat_illustration.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|chatgptghibli": {
+    "trigger_style": "chatgptghibli",
+    "lora_style": "studiochatgpt-ghibli-v1.safetensors",
+    "strength_style": 1.35,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|anime": {
+    "trigger_style": "anime",
+    "lora_style": "style_real_anime.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|disney": {
+    "trigger_style": "disney",
+    "lora_style": "",
+    "strength_style": 1.1,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|lineart": {
+    "trigger_style": "lineart",
+    "lora_style": "flux_events_Caricature_crctfl_style.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Kwon_Young_Kuk|ad@m_3lliot": {
+    "trigger_style": "ad@m_3lliot",
+    "lora_style": "style_ad@m_3lliot.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Kwon_Young_Kuk",
+    "lora_character": "Flux_Lora_Kwon_Young_Kuk_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|disney": {
+    "trigger_style": "disney",
+    "lora_style": "",
+    "strength_style": 1.45,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|Corporatecartoon": {
+    "trigger_style": "Corporatecartoon",
+    "lora_style": "style_corporatecartoon.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|chatgptghibli": {
+    "trigger_style": "chatgptghibli",
+    "lora_style": "studiochatgpt-ghibli-v1.safetensors",
+    "strength_style": 1.45,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|anime": {
+    "trigger_style": "anime",
+    "lora_style": "style_real_anime.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|impressionism": {
+    "trigger_style": "impressionism",
+    "lora_style": "style_impressionism.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|cartoon": {
+    "trigger_style": "cartoon",
+    "lora_style": "style_american_modern_cartoon.safetensors",
+    "strength_style": 1.4,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|Flat Lined": {
+    "trigger_style": "Flat Lined",
+    "lora_style": "style_flat_lined.safetensors",
+    "strength_style": 1.1,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|Pencil drawing in 4B bold strokes": {
+    "trigger_style": "Pencil drawing in 4B bold strokes",
+    "lora_style": "style_Pencil_drawing_in_2B_4B_2H_HB.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|ad@m_3lliot": {
+    "trigger_style": "ad@m_3lliot",
+    "lora_style": "style_ad@m_3lliot.safetensors",
+    "strength_style": 1.4,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|Hasui Kawase Style": {
+    "trigger_style": "Hasui Kawase Style",
+    "lora_style": "style_Hasui_Kawase.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|lineart": {
+    "trigger_style": "lineart",
+    "lora_style": "flux_events_Caricature_crctfl_style.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|wh1m5y_style flat illustration": {
+    "trigger_style": "wh1m5y_style flat illustration",
+    "lora_style": "style_wh1m5y_style_flat_illustration.safetensors",
+    "strength_style": 0.95,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Lee_Jun_Seok|DUDL, dudl": {
+    "trigger_style": "DUDL, dudl",
+    "lora_style": "style_dudl.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Lee_Jun_Seok",
+    "lora_character": "Flux_Lora_Lee_Jun_Seok_rank16_bf16-step01000-state.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|DUDL, dudl": {
+    "trigger_style": "DUDL, dudl",
+    "lora_style": "style_dudl.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|lineart": {
+    "trigger_style": "lineart",
+    "lora_style": "flux_events_Caricature_crctfl_style.safetensors",
+    "strength_style": 1.45,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|cartoon": {
+    "trigger_style": "cartoon",
+    "lora_style": "style_american_modern_cartoon.safetensors",
+    "strength_style": 1.45,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|wh1m5y_style flat illustration": {
+    "trigger_style": "wh1m5y_style flat illustration",
+    "lora_style": "style_wh1m5y_style_flat_illustration.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|Flat Lined": {
+    "trigger_style": "Flat Lined",
+    "lora_style": "style_flat_lined.safetensors",
+    "strength_style": 1.2,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|impressionism": {
+    "trigger_style": "impressionism",
+    "lora_style": "style_impressionism.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|Hasui Kawase Style": {
+    "trigger_style": "Hasui Kawase Style",
+    "lora_style": "style_Hasui_Kawase.safetensors",
+    "strength_style": 1.3,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|disney": {
+    "trigger_style": "disney",
+    "lora_style": "",
+    "strength_style": 1.5,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|anime": {
+    "trigger_style": "anime",
+    "lora_style": "style_real_anime.safetensors",
+    "strength_style": 0.8,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|chatgptghibli": {
+    "trigger_style": "chatgptghibli",
+    "lora_style": "studiochatgpt-ghibli-v1.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|ad@m_3lliot": {
+    "trigger_style": "ad@m_3lliot",
+    "lora_style": "style_ad@m_3lliot.safetensors",
+    "strength_style": 1.45,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|Corporatecartoon": {
+    "trigger_style": "Corporatecartoon",
+    "lora_style": "style_corporatecartoon.safetensors",
+    "strength_style": 1.05,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  },
+  "Ji_Gui_Yeon|Pencil drawing in 4B bold strokes": {
+    "trigger_style": "Pencil drawing in 4B bold strokes",
+    "lora_style": "style_Pencil_drawing_in_2B_4B_2H_HB.safetensors",
+    "strength_style": 1.5,
+    "trigger_character": "Ji_Gui_Yeon",
+    "lora_character": "Flux_Lora_Ji_Gui_Yeon_rank16_bf16.safetensors",
+    "strength_character": 1.4
+  }
+}

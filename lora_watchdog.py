@@ -43,8 +43,8 @@ class LoraFolderHandler(FileSystemEventHandler):
 
 if __name__ == "__main__":
     folder_path = os.path.expanduser("~/ComfyUI/models/loras/")
-    save_path = os.path.expanduser("~/ComfyUI/gltr-data/list_character_names.json")
-    lora_save_path = os.path.expanduser("~/ComfyUI/gltr-data/list_character_lora.json")
+    save_path = os.path.expanduser("~/ComfyUI/custom_nodes/gltr/list_character_names.json")
+    lora_save_path = os.path.expanduser("~/ComfyUI/custom_nodes/gltr/list_character_lora.json")
 
     # 최초 1회 실행
     update_lora_json(folder_path, save_path, lora_save_path)

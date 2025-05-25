@@ -154,8 +154,8 @@ class UniversalNameMatcher:
                 "name": ("STRING", {}),
                 "start": ("STRING", {"default": "0"}),
                 "length": ("STRING", {"default": "0"}),
-                "name_list_path": ("STRING", {"default": "~/ComfyUI/gltr-data/list_character_names.json"}),
-                "lora_file_list_path": ("STRING", {"default": "~/ComfyUI/gltr-data/list_character_lora.json"}),
+                "name_list_path": ("STRING", {"default": "~/ComfyUI/custom_nodes/gltr/list_character_names.json"}),
+                "lora_file_list_path": ("STRING", {"default": "~/ComfyUI/custom_nodes/gltr/list_character_lora.json"}),
                 "threshold": ("FLOAT", {"default": 0.8})
             }
         }
