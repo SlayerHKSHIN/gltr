@@ -7,3 +7,4 @@ torch
 transliterate
 unidecode
 watchdog
+opencv-python
